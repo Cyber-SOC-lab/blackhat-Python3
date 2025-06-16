@@ -6,9 +6,10 @@
     "module": "environment"
   },
   {
-    "module": "screenshot"
+    "module": "keylogger"
   },
   {
-    "module": "keylogger"
+    "module": "screenshot"
   }
+
 ]
