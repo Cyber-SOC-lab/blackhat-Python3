@@ -1,0 +1,36 @@
+# Core libraries
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+lxml>=5.2.1
+
+# Networking and Scanning
+scapy>=2.5.0
+netifaces>=0.11.0
+
+# For command-line tools & interactivity
+paramiko>=3.4.0
+pycrypto>=2.6.1; python_version < "3.10"
+pycryptodome>=3.20.0  # Used as alternative to pycrypto
+
+# HTTP and Web interaction
+flask>=3.0.3
+urllib3>=2.2.1
+
+# Packet crafting and sniffing
+pcapy-ng>=1.4.0
+
+# Volatility (for memory forensics in Chapter 11)
+volatility==2.6  # Legacy version required for compatibility
+
+# Immunity Debugger plugin scripting (used with Python 2 inside ID only)
+# These are not pip installable but scripts rely on the `immlib` interface.
+
+# Windows-specific (optional, only for local service/dll injection testing)
+pywin32>=306; platform_system == "Windows"
+
+# General utilities
+colorama>=0.4.6
+rich>=13.7.1  # For better console output
+
+# Optional debugging and analysis tools
+psutil>=5.9.8
