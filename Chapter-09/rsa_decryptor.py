@@ -6,7 +6,9 @@ from Crypto.Cipher import PKCS1_OAEP
 encrypted_b64 = ""  # Insert your base64 string here
 
 # --- RSA Private Key ---
-private_key = """ Enter your RSA private key here for Decryption. """
+private_key ="""-----BEGIN PRIVATE KEY-----
+...YOUR RSA PRIVATE KEY HERE...
+-----END PRIVATE KEY-----"""
 
 # --- Decryption ---
 try:
